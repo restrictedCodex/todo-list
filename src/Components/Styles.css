@@ -73,6 +73,7 @@ input:focus {
   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
 }
 
+
 .todo-btn {
   width: 5rem;
   display: flex;
@@ -149,6 +150,7 @@ input:focus {
 .fa-edit {
   margin-left: -3.5rem;
 }
+
 
 .eachItem:hover .fa-trash-alt {
   color: rgb(214, 47, 61);
