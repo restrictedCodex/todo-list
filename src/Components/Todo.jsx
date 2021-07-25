@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import '../Components/Styles.css'
-import todoImage from '../Images/todo.svg'
+import todoImage from '../Images/todo.svg.svg'
 
 const getLocalData = () => {
     const lists = localStorage.getItem("mytodolist");
