@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import '../Components/Styles.css'
-import todoImage from '../Images/todo.svg.svg'
+import mainImage from '../Images/todo.svg.svg'
 
 const getLocalData = () => {
     const lists = localStorage.getItem("mytodolist");
@@ -74,7 +74,7 @@ const Todo = () => {
             <div className="main-div">
                 <div className="child-div">
                     <figure>
-                        <img src={todoImage} alt="todo"/>
+                        <img src={mainImage} alt="todo"/>
                         <figcaption> Add Your List Here ✌ </figcaption>
                     </figure>
                     <div className="addItems">
